@@ -1,0 +1,47 @@
+# Binaries and executables
+*.exe
+*.out
+*.app
+*.dll
+
+# Go-specific files
+*.log
+*.test
+*.prof
+*.sum
+
+# Dependency directories
+/vendor/
+/bin/
+/pkg/
+
+# Go module files
+go.sum
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Coverage and test reports
+coverage.*
+*.cover
+*.cov
+testdata/
